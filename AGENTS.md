@@ -38,3 +38,18 @@
 6. 设计文档
 7. 源码和测试
 8. 历史记录或旧文档
+
+## Agent skills
+
+### Issue tracker
+
+本地 Markdown 问题与规格跟踪机制，存储于 `.scratch/<feature>/`。详见 `docs/agents/issue-tracker.md`。
+
+### Triage labels
+
+标准 5 大分类角色标签（`needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`）。详见 `docs/agents/triage-labels.md`。
+
+### Domain docs
+
+单领域模型（Single-context），以根目录 `GLOSSARY.md` 为统一术语源，架构决策记录位于 `docs/adr/`。详见 `docs/agents/domain.md`。
+

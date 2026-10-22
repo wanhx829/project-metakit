@@ -1,0 +1,28 @@
+{
+  "id": "cockpit-pack-microservices-base",
+  "name": "微服务基础平台产品数据包",
+  "version": "1.0.0",
+  "description": "涵盖微服务网关、统一认证鉴权中心、用户组织权限、系统资源管理与前端业务门户的全量业务数据",
+  "maintainer": "Human Maintainer & Antigravity",
+  "entrypoints": {
+    "webPortal": "http://10.44.3.194:30010",
+    "gatewayInternal": "http://10.44.3.194:9999",
+    "nacosConsole": "http://10.44.3.194:8848/nacos"
+  },
+  "assetMappings": {
+    "requirements": [
+      "docs/01-requirements/2026-10-21-微服务与服务治理产品说明书.md"
+    ],
+    "designAndApi": [
+      "docs/02-design/2026-10-21-微服务与服务治理-端到端场景链与代码映射.md",
+      "docs/02-design/2026-10-21-微服务与服务治理-页面路由与UI交互知识库.md"
+    ],
+    "testCases": [
+      "docs/04-testing/2026-10-21-微服务与服务治理-测试项与场景用例库.md",
+      "docs/04-testing/2026-10-22-微服务平台与控制台纵向深度下钻探测报告.md"
+    ],
+    "operationsAndConfig": [
+      "docs/07-operations/2026-10-21-微服务与服务治理-运维配置与排障手册.md"
+    ]
+  }
+}

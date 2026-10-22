@@ -29,3 +29,18 @@ data/
 models/
 *.sqlite
 *.db
+
+# Large packages & binaries
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rpm
+*.exe
+
+# Local workspace artifacts & tools
+tools/
+scratch/
+src/*/
+!src/README.md
+

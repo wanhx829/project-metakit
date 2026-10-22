@@ -1,0 +1,35 @@
+{
+  "id": "cockpit-pack-ops-platform",
+  "name": "运维平台项目产品数据包",
+  "version": "1.0.0",
+  "description": "涵盖云端控制台、自动化运维传输工具、现场运维控制台、底层部署与安装脚本体系的全生命周期业务数据",
+  "maintainer": "Human Maintainer & Antigravity",
+  "entrypoints": {
+    "cloudConsole": "http://10.88.12.80:18880",
+    "transferTool": "http://127.0.0.1:8880",
+    "deploymentConsole": "http://10.44.3.194:18880",
+    "sshTarget": "root@10.44.3.194:22"
+  },
+  "assetMappings": {
+    "requirements": [
+      "docs/01-requirements/2026-10-21-云端控制台产品说明书.md",
+      "docs/01-requirements/2026-10-21-自动化运维传输工具产品说明书.md",
+      "docs/01-requirements/2026-10-22-运维控制台产品说明书.md",
+      "docs/01-requirements/2026-10-22-自动化装机与部署脚本体系产品说明书.md"
+    ],
+    "designAndApi": [
+      "docs/02-design/2026-10-22-运维控制台与宿主环境全景架构探索.md",
+      "docs/02-design/2026-10-22-运维控制台前台功能与全模块使用手册.md",
+      "docs/02-design/2026-10-22-运维控制台-全量API契约与数据字典.md",
+      "docs/02-design/2026-10-21-自动化运维传输工具-本地架构与数据同步知识库.md"
+    ],
+    "testCases": [
+      "docs/04-testing/2026-10-22-自动化装机与底层脚本测试用例库.md",
+      "docs/04-testing/2026-10-21-自动化运维传输工具-测试项与场景用例库.md",
+      "docs/04-testing/2026-10-22-运维控制台与微服务产品横向功能测试全景报告.md"
+    ],
+    "operationsAndConfig": [
+      "docs/07-operations/2026-10-22-全产品线运维配置凭据与拓扑全景手册.md"
+    ]
+  }
+}
